@@ -39,3 +39,4 @@ background
 - Add more questions for different ages.
 - Expand categories.
 - Introduce multiplayer mode.
+- Add Animation 
