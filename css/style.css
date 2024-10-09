@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background-image: url(/assets/image.png);
+    background-image: url(../assets/image.png);
     background-size: cover; 
     background-position: left;
     font-family: "Playwrite DE Grund", cursive;
