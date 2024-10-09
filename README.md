@@ -4,7 +4,7 @@
 ![alt Text](</assets/Capture2.PNG>)
 
 ## Your Game Name:
-Quiz Clock Challenge
+Quiz Clock Game
 
 ## Description
 The Quiz Clock Challenge is an game that tests your knowledge of clocks, timekeeping, and famous time-related events. Players must answer a series of questions before the timer runs out! Choose your difficulty level and race against the clock
@@ -27,7 +27,7 @@ Google Fonts
 Assets  
 
 background 
-- [Freepic] https://www.freepik.com/free-photo/retro-alarm-clock-corner-pink-background_3956575.htm#fromView=image_search&page=1&position=0&uuid=ce02a23d-efc9-47db-a55c-76561454041b
+- Freepic : https://www.freepik.com/free-photo/retro-alarm-clock-corner-pink-background_3956575.htm#fromView=image_search&page=1&position=0&uuid=ce02a23d-efc9-47db-a55c-76561454041b
 
 ## Technologies Used:
 1. HTML
@@ -37,5 +37,5 @@ background
 ## Next Steps:
 
 - Add more questions for different ages.
-- Introduce multiplayer mode.
 - Expand categories.
+- Introduce multiplayer mode.

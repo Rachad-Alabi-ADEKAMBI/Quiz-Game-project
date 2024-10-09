@@ -99,8 +99,8 @@ button {
         font-size: 20px;
     }
     button {
-        font-size: 20px;
-        width: 80px; 
+        font-size: 15px;
+        width: 90px; 
         height: 60px;
     } 
     #question {
@@ -110,8 +110,8 @@ button {
     }
     .answer-btn {
         width: 100px; 
-        height: 80px; 
-        font-size: 20px; 
+        height: 100px; 
+        font-size: 15px; 
     }
     #feedback {
         font-size: 40px; 

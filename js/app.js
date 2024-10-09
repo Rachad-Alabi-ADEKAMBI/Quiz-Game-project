@@ -173,15 +173,7 @@ function endQuiz(level) {
     tryAgainButton.style.display = 'block';
  
 }
-/*
-const render = () => {
-    counntDowntTimer();
-    displayQuestion();
-    showQuestion();
-    checkAnswer();
-    endQuiz();
-}
-*/
+
 /*----------- Event Listeners ----------*/
 document.getElementById('easy-btn').addEventListener('click', () => {
     lastSelectedLevel = 'easy';
