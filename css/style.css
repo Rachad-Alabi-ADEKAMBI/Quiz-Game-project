@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Protest+Strike&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(/assets/image.png);
+    background-size: cover; 
+    background-position: left;
+    font-family: "Playwrite DE Grund", cursive;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Protest Strike", sans-serif;
+    font-size: 170px;
+    color: rgb(96, 11, 59);
+}
+
+h2 {
+    font-size: 80px;
+    color: brown;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-top: 20px; 
+    justify-content: center;
+}
+
+button {
+    width: 250px; 
+    height: 110px; 
+    font-family: "Protest Strike", sans-serif;
+    font-size: 50px; 
+    color: beige;
+    background-color: rgb(96, 11, 59);
+    border-radius: 5%;
+    margin: 20px;   
+}
+
+#question {
+    font-family: "Playwrite DE Grund", cursive;
+    padding: 20px;
+    max-width: 1100px; 
+    font-size: 40px; 
+    text-align: center; 
+    margin: 0 auto;
+
+}
+#try-again-btn{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#quiz-section {
+    font-size: 50px; 
+    color: rgb(9, 9, 43);
+    margin-top: 20px;
+}
+
+#feedback {
+    color: brown;
+    font-size: 100px; 
+    margin-top: 20px;
+}
+#timer{
+    color: brown;
+    font-size: 50px; 
+    margin-top: 20px; 
+}
+
+.answer-btn {
+    width: 300px; 
+    height: 200px; 
+    font-size: 40px; 
+    color: beige;
+    background-color: rgb(96, 11, 59);
+    border-radius: 10%; 
+    margin: 20px; 
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        min-height: 100vh;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    button {
+        font-size: 20px;
+        width: 80px; 
+        height: 60px;
+    } 
+    #question {
+        padding: 20px;
+        margin: 0 auto; 
+        font-size: 20px; 
+    }
+    .answer-btn {
+        width: 100px; 
+        height: 80px; 
+        font-size: 20px; 
+    }
+    #feedback {
+        font-size: 40px; 
+    }
+    #timer{
+        font-size: 20px; 
+    }
+}

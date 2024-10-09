@@ -1,0 +1,53 @@
+Game Idea:
+•	Quiz Game
+
+User stories:
+ Game Selection: select a difficulty level for the quiz, choose a challenge
+ Viewing Questions: view one question at a time with multiple answer options,
+ Answering Questions: select you answer by clicking on a button,
+ Timer:you have 15 seconds to answer each question.
+ Correct or Wrong : tell you if you chosen the correct answer or wrong
+ Winning or Losing: if you won or lost at the end of the quiz
+ Timer:to have 15 seconds to answer each question.
+
+Pseudo code:
+Start the Quiz Game
+
+Define the Questions
+Create a collection of questions categorized by difficulty levels:
+    Easy Level: 3 questions
+    Medium Level:  questions
+    Hard Level: 3 questions
+
+When the player selects a difficulty level:
+    Set the current level to the selected difficulty.
+    Get the current question based on the current level and index.
+        Display the question text.
+    For each answer option in the current question:
+        Display the buttons for the answer options.
+
+When a player selects an answer:
+    Check if the selected answer is correct.
+        Move to the next question by incrementing the question index. 
+    If there are more questions remaining:
+        Call the function to show the next question.
+
+If the score is 2 or more:
+    Display a message that the player wins.
+If the score is less than 2:
+    Display a message that the player loses.
+Provide an option to restart the quiz.
+
+Start countdown from 15 seconds.
+    If the timer reaches 0 before an answer is selected:
+        Move to the next question without increasing the score.
+        Call Show Question().
+
+Reset the game state.
+    Show the level selection interface again.
+
+End of Game
+
+
+
+

@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz Clock Game</title>
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/app.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Quiz Clock Game</h1>
+        <h2>Choose the Game Level</h2>
+    </header>
+    <main>
+
+        <section class="button-container" id="level-buttons">
+            <button id="easy-btn">Easy</button>
+            <button id="medium-btn">Medium</button>
+            <button id="hard-btn">Hard</button>
+        </section>
+
+
+        <button id="try-again-btn" style="display: none;">Try Again</button>
+        <div id="feedback"></div>
+        <div id="timer">Time left: <span id="time-left"></span> sec</div>
+        
+        <section id="quiz-section" style="display: none;"> 
+            <h3 id="question"></h3>
+            <div class="answer-container">
+                <button type="button" class="answer-btn"></button>
+                <button type="button"class="answer-btn"></button>
+                <button type="button"class="answer-btn"></button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
