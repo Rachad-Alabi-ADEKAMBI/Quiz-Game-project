@@ -52,7 +52,7 @@ const questions = {
         }
     ]
 };
-const TIME_LIMIT = 15;
+const timelimit = 15;
 
 /*---------- Variables (state) ---------*/
 let currentQuestionIndex = 0;
@@ -77,7 +77,7 @@ function displayQuestion(level) {
     document.getElementById('quiz-section').style.display = 'block';
     tryAgainButton.style.display = 'none';
 
-    timeLeft = TIME_LIMIT; 
+    timeLeft = timelimit; 
     counntDowntTimer(); 
 
     showQuestion(level);
@@ -86,7 +86,7 @@ function displayQuestion(level) {
 
 
 function counntDowntTimer() {
-    timeLeft = TIME_LIMIT; 
+    timeLeft = timelimit; 
     timeLeftElement.innerText = timeLeft; 
 
     timer = setInterval(() => {
