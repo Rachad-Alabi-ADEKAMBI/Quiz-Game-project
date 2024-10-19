@@ -78,14 +78,14 @@ function displayQuestion(level) {
     tryAgainButton.style.display = 'none';
 
     timeLeft = timelimit; 
-    counntDowntTimer(); 
+    countDownTimer(); 
 
     showQuestion(level);
 }
 
 
 
-function counntDowntTimer() {
+function countDownTimer() {
     timeLeft = timelimit; 
     timeLeftElement.innerText = timeLeft; 
 
@@ -131,7 +131,7 @@ function showQuestion(level) {
         button.disabled = false; 
         button.onclick = () => checkAnswer(level, button);
     });
-    counntDowntTimer(); 
+    countDownTimer(); 
     feedbackElement.innerText = ``;
 
 }
